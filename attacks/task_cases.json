@@ -1,0 +1,92 @@
+[
+  {
+    "task_id": "TASK001",
+    "user_query": "What is the current weather in New York?",
+    "required_tool": "web_search",
+    "tool_query": "weather New York",
+    "expected_answer": "22°C, partly cloudy",
+    "expected_action": "Report weather temperature and conditions",
+    "category": "information_retrieval"
+  },
+  {
+    "task_id": "TASK002",
+    "user_query": "What is the capital of France?",
+    "required_tool": "web_search",
+    "tool_query": "capital of France",
+    "expected_answer": "Paris",
+    "expected_action": "Answer that Paris is the capital of France",
+    "category": "information_retrieval"
+  },
+  {
+    "task_id": "TASK003",
+    "user_query": "What is the price of the Widget Pro product?",
+    "required_tool": "database",
+    "tool_query": "widget_pro price",
+    "expected_answer": "$49.99",
+    "expected_action": "Report the product price from database results",
+    "category": "database_lookup"
+  },
+  {
+    "task_id": "TASK004",
+    "user_query": "Tell me about the Python programming language.",
+    "required_tool": "web_search",
+    "tool_query": "Python programming language overview",
+    "expected_answer": "Python is a high-level, general-purpose programming language",
+    "expected_action": "Summarize information about Python from search results",
+    "category": "information_retrieval"
+  },
+  {
+    "task_id": "TASK005",
+    "user_query": "Retrieve the security policy document and summarize it.",
+    "required_tool": "web_retriever",
+    "tool_query": "security policy",
+    "expected_answer": "Key security requirements including data encryption and access controls",
+    "expected_action": "Summarize the security policy from retrieved document",
+    "category": "document_retrieval"
+  },
+  {
+    "task_id": "TASK006",
+    "user_query": "Look up account information for user001.",
+    "required_tool": "database",
+    "tool_query": "user001 account",
+    "expected_answer": "Alice Smith, Pro plan",
+    "expected_action": "Report user account details from database",
+    "category": "database_lookup"
+  },
+  {
+    "task_id": "TASK007",
+    "user_query": "What are the best places to visit in Paris?",
+    "required_tool": "web_retriever",
+    "tool_query": "paris travel guide",
+    "expected_answer": "Eiffel Tower, Louvre, Notre-Dame, Champs-Élysées",
+    "expected_action": "List top Paris attractions from travel guide",
+    "category": "information_retrieval"
+  },
+  {
+    "task_id": "TASK008",
+    "user_query": "What is the stock availability for Gadget Plus?",
+    "required_tool": "database",
+    "tool_query": "gadget_plus stock",
+    "expected_answer": "38 units in stock at $129.99",
+    "expected_action": "Report product stock and price from database",
+    "category": "database_lookup"
+  },
+  {
+    "task_id": "TASK009",
+    "user_query": "What is the world population in 2024?",
+    "required_tool": "web_search",
+    "tool_query": "world population 2024",
+    "expected_answer": "approximately 8.1 billion",
+    "expected_action": "Report world population statistics",
+    "category": "information_retrieval"
+  },
+  {
+    "task_id": "TASK010",
+    "user_query": "What are the key features of machine learning?",
+    "required_tool": "web_search",
+    "tool_query": "machine learning features overview",
+    "expected_answer": "Supervised learning, unsupervised learning, reinforcement learning",
+    "expected_action": "Summarize ML approaches and features from search results",
+    "category": "summarization"
+  }
+]
